@@ -1,0 +1,28 @@
+{
+  "name": "kamina-template-starter",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "rollup -c",
+    "start": "rollup -c -w",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Temoto-kun/kamina-template-starter.git"
+  },
+  "author": "TheoryOfNekomata <allan.crisostomo@outlook.com>",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/Temoto-kun/kamina-template-starter/issues"
+  },
+  "homepage": "https://github.com/Temoto-kun/kamina-template-starter#readme",
+  "devDependencies": {
+    "rollup": "^0.57.1",
+    "rollup-plugin-scss": "^0.4.0"
+  },
+  "dependencies": {
+    "bootstrap": "^4.1.0"
+  }
+}

@@ -1,0 +1,24 @@
+$primary: $color-primary;
+
+$black: #000;
+$gray-100: $color-negative;
+$gray-200: $color-negative-darker;
+$gray-900: $color-positive-emphasis;
+$gray-800: $color-positive;
+$white: $color-negative-lighter;
+
+$body-bg: $gray-100;
+$body-color: $gray-800;
+
+$spacer: $length-grid;
+
+$headings-font-weight: $font-weight-headings;
+$card-bg: $white;
+
+$line-height-base: 1.5;
+$card-cap-bg: transparent;
+$card-border-width: 0;
+
+$box-shadow-sm:               0 .125rem 0.25rem rgba($black, .075);
+$box-shadow:                  0 .25rem 0.5rem rgba($black, .15);
+$box-shadow-lg:               0 1rem 3rem rgba($black, .175);

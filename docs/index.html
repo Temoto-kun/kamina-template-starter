@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en-PH">
+<head>
+  <meta charset="UTF-8">
+  <title>Kamina</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="bundle.css">
+</head>
+<body>
+
+<h1 class="sr-only">Kamina</h1>
+
+<div class="bg-primary kmn-Topbar w-100 position-fixed">
+  <div class="kmn-Topbar-container container">
+    <nav class="kmn-Topbar-main px-0 navbar navbar-expand navbar-light navbar-dark">
+      <h2 class="sr-only">Navigation</h2>
+      <a class="navbar-brand" href="#">
+        Kamina
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Feed <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Search</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">User</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Notifs</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">More</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+</div>
+
+<div class="kmn-GroupHeader">
+  <div class="kmn-GroupHeader-images position-relative">
+    <div
+      class="kmn-Banner position-absolute w-100 h-100"
+      style="
+      background-image: url('http://lorempixel.com/1024/768/cats/1');
+      background-position: bottom;
+    "
+    >
+      <div class="kmn-Banner-shade w-100 h-100"></div>
+    </div>
+    <div class="kmn-GroupHeader-avatarContainer container h-100">
+      <div class="kmn-GroupHeader-avatar position-relative d-flex align-items-end w-100 h-100 py-3">
+        <a href="#" class="kmn-Avatar kmn-Avatar--large d-block">
+          <img class="kmn-Avatar-image w-100 h-100" src="http://lorempixel.com/256/256/cats/2" alt="&gt;implying we can programming">
+        </a>
+      </div>
+    </div>
+  </div>
+  <div class="kmn-GroupHeader-nav bg-white">
+    <div class="kmn-GroupHeader-navContainer container">
+      <nav class="kmn-GroupNav d-flex justify-content-between align-items-center py-4">
+        <h2 class="kmn-GroupNav-title m-0">&gt;implying we can programming</h2>
+        <ul class="d-flex m-0 p-0 h-100">
+          <li class="d-block px-3 h-100">
+            <a href="#" class="w-100 h-100 d-flex justify-content-center align-items-center">Discussion</a>
+          </li>
+          <li class="d-block px-3 h-100">
+            <a href="#" class="w-100 h-100 d-flex justify-content-center align-items-center">Events</a>
+          </li>
+          <li class="d-block px-3 h-100">
+            <a href="#" class="w-100 h-100 d-flex justify-content-center align-items-center">Files</a>
+          </li>
+          <li class="d-block px-3 h-100">
+            <a href="#" class="w-100 h-100 d-flex justify-content-center align-items-center">About</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+  <div class="kmn-GroupHeader-actions">
+    <div class="kmn-GroupHeader-actionContainer container">
+      <div class="kmn-GroupActions d-flex justify-content-between align-items-center py-2">
+        <div>
+          <button class="btn btn-primary">Create Post</button>
+        </div>
+        <div>
+          <label class="d-block m-0">
+            <span class="sr-only">Search the group.</span>
+            <input name="search" type="search" class="form-control" placeholder="Search the group.">
+          </label>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<main class="kmn-Feed">
+  <div class="container">
+    <div class="card-columns">
+      <article class="kmn-Post card">
+        <header class="kmn-Post-header card-header position-relative">
+          <div class="kmn-Author d-flex align-items-center">
+            <div class="kmn-Author-avatar">
+              <a href="#" class="kmn-Avatar d-block">
+                <img class="kmn-Avatar-image w-100 h-100" src="http://lorempixel.com/256/256/cats/2" alt="&gt;implying we can programming">
+              </a>
+            </div>
+            <div class="kmn-Author-details ml-2">
+              <small class="kmn-Author-timestamp d-block text-muted">
+                <time>
+                  1 day ago
+                </time>
+              </small>
+              <a href="#" class="kmn-Author-name">
+                <h3 class="h5 m-0">TheoryOfNekomata</h3>
+              </a>
+            </div>
+          </div>
+          <div class="kmn-Post-options position-absolute p-2">
+            <a href="#">
+              More
+            </a>
+          </div>
+        </header>
+        <div class="card-body kmn-Post-bodyWrapper">
+          <div class="kmn-Post-body">
+            <p>
+              The piano is an acoustic, string
+              musical instrument invented in Italy by
+              Bartolomeo Cristofori around 1700.
+            </p>
+            <ol class="kmn-Poll p-0 m-0">
+              <li class="kmn-Poll-choice d-block mt-3">
+                <div class="kmn-Poll-choiceHeader mb-1 d-flex align-items-end justify-content-between">
+                  <span class="kmn-Poll-choiceLabel">Yes</span>
+                  <div class="kmn-Poll-voteCount">310</div>
+                </div>
+                <div class="kmn-Poll-meter w-100">
+                  <div class="kmn-PollMeter d-flex align-items-center">
+                    <div class="kmn-PollMeter-percentage">31%</div>
+                    <meter class="kmn-PollMeter-meter flex-grow-1" value="310" max="1000">31%</meter>
+                  </div>
+                </div>
+              </li>
+              <li class="kmn-Poll-choice d-block mt-3">
+                <div class="kmn-Poll-choiceHeader mb-1 d-flex align-items-end justify-content-between">
+                  <span class="kmn-Poll-choiceLabel">
+                    No, but it has something to do with the choices spanning multiple lines
+                  </span>
+                  <div class="kmn-Poll-voteCount">690</div>
+                </div>
+                <div class="kmn-Poll-meter w-100">
+                  <div class="kmn-PollMeter d-flex align-items-center">
+                    <div class="kmn-PollMeter-percentage">69%</div>
+                    <meter class="kmn-PollMeter-meter flex-grow-1" value="690" max="1000">69%</meter>
+                  </div>
+                </div>
+              </li>
+            </ol>
+          </div>
+          <div class="kmn-Post-actions d-flex">
+            <button class="kmn-PostAction flex-grow-1 btn btn-light">React</button>
+            <button class="kmn-PostAction flex-grow-1 btn btn-light">Share</button>
+          </div>
+        </div>
+      </article>
+      <article class="kmn-Post card">
+        <header class="kmn-Post-header card-header position-relative">
+          <div class="kmn-Author d-flex align-items-center">
+            <div class="kmn-Author-avatar">
+              <a href="#" class="kmn-Avatar d-block">
+                <img class="kmn-Avatar-image w-100 h-100" src="http://lorempixel.com/256/256/cats/2" alt="&gt;implying we can programming">
+              </a>
+            </div>
+            <div class="kmn-Author-details ml-2">
+              <small class="kmn-Author-timestamp d-block text-muted">
+                <time>
+                  1 day ago
+                </time>
+              </small>
+              <a href="#" class="kmn-Author-name">
+                <h3 class="h5 m-0">TheoryOfNekomata</h3>
+              </a>
+            </div>
+          </div>
+          <div class="kmn-Post-options position-absolute p-2">
+            <a href="#">
+              More
+            </a>
+          </div>
+        </header>
+        <div class="card-body kmn-Post-bodyWrapper">
+          <div class="kmn-Post-body">
+            <p>
+              The piano is an acoustic, string
+              musical instrument invented in Italy by
+              Bartolomeo Cristofori around 1700.
+            </p>
+          </div>
+          <div class="kmn-Post-actions d-flex">
+            <button class="kmn-PostAction flex-grow-1 btn btn-light">React</button>
+            <button class="kmn-PostAction flex-grow-1 btn btn-light">Share</button>
+          </div>
+        </div>
+      </article>
+      <article class="kmn-Post card">
+        <header class="kmn-Post-header card-header position-relative">
+          <div class="kmn-Author d-flex align-items-center">
+            <div class="kmn-Author-avatar">
+              <a href="#" class="kmn-Avatar d-block">
+                <img class="kmn-Avatar-image w-100 h-100" src="http://lorempixel.com/256/256/cats/2" alt="&gt;implying we can programming">
+              </a>
+            </div>
+            <div class="kmn-Author-details ml-2">
+              <small class="kmn-Author-timestamp d-block text-muted">
+                <time>
+                  1 day ago
+                </time>
+              </small>
+              <a href="#" class="kmn-Author-name">
+                <h3 class="h5 m-0">TheoryOfNekomata</h3>
+              </a>
+            </div>
+          </div>
+          <div class="kmn-Post-options position-absolute p-2">
+            <a href="#">
+              More
+            </a>
+          </div>
+        </header>
+        <div class="card-body kmn-Post-bodyWrapper">
+          <div class="kmn-Post-body">
+            <p>
+              The piano is an acoustic, string
+              musical instrument invented in Italy by
+              Bartolomeo Cristofori around 1700.
+            </p>
+          </div>
+          <div class="kmn-Post-actions d-flex">
+            <button class="kmn-PostAction flex-grow-1 btn btn-light">React</button>
+            <button class="kmn-PostAction flex-grow-1 btn btn-light">Share</button>
+          </div>
+        </div>
+      </article>
+    </div>
+  </div>
+</main>
+<script src="bundle.js"></script>
+</body>
+</html>

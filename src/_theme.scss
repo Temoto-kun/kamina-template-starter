@@ -1,0 +1,16 @@
+$color-primary: #b888ee;
+$color-positive: #5b4d51;
+$color-positive-emphasis: #241e20;
+$color-negative: #f8f8f8;
+$color-negative-darker: #eeeeee;
+$color-negative-lighter: #ffffff;
+
+$font-size-root: 14px;
+$font-weight-headings: 300;
+$length-spacing: 16px;
+
+$length-grid: 1rem * ($length-spacing / $font-size-root);
+
+//
+
+$length-topbar: $length-grid * 4;
