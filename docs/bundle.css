@@ -6330,8 +6330,14 @@ body {
 .kmn-Avatar--large > .kmn-Avatar-image {
   border: 4px solid; }
 
-.kmn-Feed {
+.kmn-Main {
   margin-top: 2.28571rem;
+  margin-bottom: 2.28571rem; }
+
+.kmn-Main-feed {
+  column-gap: 2.28571rem; }
+
+.kmn-Main-feed .kmn-Post {
   margin-bottom: 2.28571rem; }
 
 .kmn-Post-options {

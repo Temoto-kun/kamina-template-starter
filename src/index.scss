@@ -85,8 +85,16 @@ body {
   border: 4px solid;
 }
 
-.kmn-Feed {
+.kmn-Main {
   margin-top: $spacer * 2;
+  margin-bottom: $spacer * 2;
+}
+
+.kmn-Main-feed {
+  column-gap: $spacer * 2;
+}
+
+.kmn-Main-feed .kmn-Post {
   margin-bottom: $spacer * 2;
 }
 
